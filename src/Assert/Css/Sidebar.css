@@ -1,0 +1,26 @@
+/* Sidebar.css */
+
+/* Style for the icon bar */
+.icon-bar {
+  position: fixed;
+  left: 20px; /* Adjust this value to change the distance from the left side */
+  top: 50%; /* Position icons vertically at the middle of the screen */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for individual icons */
+.icon-bar a {
+  margin-bottom: 10px; /* Adjust the spacing between icons */
+  color: #333; /* Icon color */
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for icons */
+.icon-bar a:hover {
+  color: #ff8800; /* Change color on hover */
+}

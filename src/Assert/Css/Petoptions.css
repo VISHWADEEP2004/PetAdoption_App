@@ -1,0 +1,71 @@
+.desp-card {
+    position: relative;
+    width: 300px;
+    flex: 0 0 300px;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 5rem;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 10rem;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: #0a4870;
+    transition: 0.3s;
+    height: 30rem;
+  }
+  
+  .desp-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 72, 112, 0);
+    transition: 0.3s;
+  }
+  
+  .desp-content {
+      position: relative;
+      display: flex;
+      align-items: flex-end; /* Align items at the bottom */
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transform: translateX(1000%, -100%);
+    transition: 0.3s;
+  }
+  
+  .desp-btn {
+    border: 3px solid white;
+    padding: 10px 15px;
+    background-color:  #0a4870;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px; 
+    opacity: 0.8;
+  }
+  
+  
+ 
+  
+  .desp-card:hover .desp-content {
+    opacity: 1;
+    transform: translateY(400px);
+  }
+  
+ 
+  .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+  }

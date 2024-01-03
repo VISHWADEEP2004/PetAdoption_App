@@ -1,0 +1,25 @@
+{
+    "users": [
+      {
+        "username": "vishwa",
+        "password": "78520",
+        "id": 2
+      },
+      {
+        "username": "22it.sanjay.p@skct.edu.in",
+        "password": "78945",
+        "id": 3
+      },
+      {
+        "username": "rsa",
+        "password": "qwert",
+        "id": 4
+      }
+    ],
+    "products": [
+      {
+        "pid": 1,
+        "pname": "asdf"
+      }
+    ]
+  }
