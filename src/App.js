@@ -19,13 +19,10 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register/>}/>
       <Route path='/signup' element={<Signup/>}/>
-      <Route path="/dashboard" component={Dashboard} />
       <Route path='/dogadap' element={<Dogadap/>}/>
       <Route path='/catadap' element={<Catadap/>}/>
       <Route path='/pets' element={<Pets/>}/>
       <Route path='/add' element={<AddPet />} />
-      <Route exact path="/" render={(props) => <Catadap {...props} cats={cats} />} />
-        <Route path="/pet/:id" render={(props) => <PetDetails {...props} cats={cats} />} />
     </Routes>
     
 
