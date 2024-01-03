@@ -1,6 +1,5 @@
 import '../Assert/Css/register.css'
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 function Register() {
     
     return (

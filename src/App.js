@@ -7,7 +7,6 @@ import Signup from "./Components/Signup";
 import {Route,Routes} from 'react-router-dom';
 import Catadap from "./Components/Catadap";
 import Pets from "./Components/Pets";
-import Dashboard from "./Components/Dashboard";
 import Dogadap from "./Components/Dogadap";
 import AddPet from "./Components/Addpet";
 function App() {

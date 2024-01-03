@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Addpet from './Addpet';
 import PetList from './PetList';
 
 const Petspage = () => {

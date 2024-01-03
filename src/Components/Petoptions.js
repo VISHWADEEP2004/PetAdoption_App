@@ -1,6 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from 'react-router-dom'
-import Footer from './Footer';
+import { useNavigate } from 'react-router-dom'; 
 import '../Assert/Css/Petoptions.css'
 
 function Catadap() {

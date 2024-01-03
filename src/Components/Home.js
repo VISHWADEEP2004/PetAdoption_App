@@ -1,10 +1,8 @@
 // Home.jsx
 
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from './MyCarousel';
 import Footer from './Footer';
-import AdminDashboard from './AdminDashboard';
-import Description from './Description';
 import Petoptions from './Petoptions';
 
 function Home() {

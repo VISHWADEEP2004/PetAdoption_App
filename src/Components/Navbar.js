@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDog, faCat, faPaw } from '@fortawesome/free-solid-svg-icons';
-import logo from '../Assert/img/logo.png';
 import '../Assert/Css/nav.css';
 
 function Navbar() {
