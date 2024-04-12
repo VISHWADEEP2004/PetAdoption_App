@@ -15,8 +15,8 @@ body{
     align-items:center;
     flex-direction: row;
     width: 100vw;
-  height: 4rem;
-  background-color:#0a4870;
+    height: 4rem;
+    background-color:#0a4870;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -25,12 +25,15 @@ body{
     list-style: none;
     
 }
+.navbar .nav-link:visited {
+    color: white; /* or whatever color you want visited links to be */
+}
 .navbar .nav-link {
     color: white;
     text-decoration: none;
     padding: 10px;
     text-align: center;
-    font-size: large;
+    font-size: 1.2rem;
     font-family: 'Source Code Pro', monospace;
 }
 .classlogo{ 
@@ -41,7 +44,7 @@ body{
     list-style-type: none;
     font-size: 1rem;
     margin-left: auto;
-    font-family: 'Georgia';
+    /* font-family: 'Georgia'; */
 }
 
 .navbar li{
@@ -49,7 +52,7 @@ body{
 }
 
 .navbar .nav-link:hover {
-    text-decoration: underline;
+    text-decoration: solid;
     color: white;
 }
 

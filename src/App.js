@@ -1,4 +1,5 @@
 import React from 'react';
+import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css"
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './Components/Navbar';
 import Home from './Components/Home';
@@ -9,25 +10,20 @@ import Catadap from './Components/Catadap';
 import Pets from './Components/Pets';
 import Dogadap from './Components/Dogadap';
 import AddPet from './Components/Addpet';
-import { ThemeProvider, useTheme } from './Components/Themecontest';
-
-function ThemeComponent() {
-  const { theme, toggleTheme } = useTheme();
-
-  return (
-    <div>
-      <p>Current Theme: {theme}</p>
-      <button onClick={toggleTheme}>Toggle Theme</button>
-    </div>
-  );
-}
-
+import NavBarDB from './Components/databases/NavBarDB';
+import HomeDB from './Components/databases/HomeDB';
+import AddUser from './Components/pages/AddUser';
+import EditUser from './Components/pages/EditUser'
 function App() {
   return (
-    <ThemeProvider>
       <>
         <NavBar />
+          {/* <NavBarDB/> */}
+          {/* <AddUser/> */}
         <Routes>
+          {/* <Route path='/homedb' element={<HomeDB />} />
+          <Route path='/adduser' element={<AddUser />} />
+          <Route path='/edituser/:id' element={<EditUser />} /> */}
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
@@ -37,9 +33,7 @@ function App() {
           <Route path='/pets' element={<Pets />} />
           <Route path='/add' element={<AddPet />} />
         </Routes>
-        <ThemeComponent />
       </>
-    </ThemeProvider>
   );
 }
 
